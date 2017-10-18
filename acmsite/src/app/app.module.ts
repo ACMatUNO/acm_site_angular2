@@ -10,6 +10,7 @@ import {NavbarComponent} from "./navbar-component/navbar.component";
 import {ContactComponent} from "./contact-component/contact.component";
 import {SpgrpComponent} from "./spgrp-component/spgrp.component";
 import {LoginPageComponent} from "./loginpage-component/loginPage.component";
+import {EventComponent} from "./event-component/event.component";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {LoginPageComponent} from "./loginpage-component/loginPage.component";
     NavbarComponent,
     ContactComponent,
     SpgrpComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
